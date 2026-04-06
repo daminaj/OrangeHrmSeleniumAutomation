@@ -4,3 +4,24 @@ CLAUDE.md
 *.tmp
 *.class
 *debug*
+# Credentials and Environment
+.env
+.env.example
+
+# Claude/AI specific files
+.claude/
+CLAUDE.md
+
+# Debug and Logs
+debug_*.py
+*.log
+reports/
+.pytest_cache/
+
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# IDE Settings
+.vscode/
