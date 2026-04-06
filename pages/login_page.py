@@ -54,9 +54,6 @@ class LoginPage(BasePage):
     def is_login_successful(self, timeout=None):
         """Check if login was successful (dashboard page is loaded).
 
-        Args:
-            timeout: Maximum time to wait for dashboard in seconds.
-                     Defaults to Settings.TIMEOUT + 10.
         """
         if timeout is None:
             timeout = Settings.TIMEOUT + 10  # e.g., 20 seconds

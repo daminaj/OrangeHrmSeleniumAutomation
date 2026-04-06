@@ -11,6 +11,8 @@ CLAUDE.md
 # Claude/AI specific files
 .claude/
 CLAUDE.md
+*inspect_pim_*
+dashboard.html
 
 # Debug and Logs
 debug_*.py
