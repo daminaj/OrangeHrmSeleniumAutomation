@@ -1,0 +1,28 @@
+Could not click edit: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//div[contains(@class,'oxd-table-cell--edit')]//button[1]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x60cdf3+10b03]
+	chromedriver!GetHandleVerifier [0x60cf24+10c34]
+	chromedriver!(No symbol) [0x3f2120]
+	chromedriver!(No symbol) [0x43abca]
+	chromedriver!(No symbol) [0x43ae6b]
+	chromedriver!(No symbol) [0x4317f1]
+	chromedriver!(No symbol) [0x45db54]
+	chromedriver!(No symbol) [0x4316e4]
+	chromedriver!(No symbol) [0x45dcd4]
+	chromedriver!(No symbol) [0x47a9a5]
+	chromedriver!(No symbol) [0x45d8a6]
+	chromedriver!(No symbol) [0x430229]
+	chromedriver!(No symbol) [0x430fe4]
+	chromedriver!GetHandleVerifier [0x8748b9+2785c9]
+	chromedriver!GetHandleVerifier [0x86feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x88e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x625cc8+299d8]
+	chromedriver!GetHandleVerifier [0x62d9fd+3170d]
+	chromedriver!GetHandleVerifier [0x6158c8+195d8]
+	chromedriver!GetHandleVerifier [0x615a92+197a2]
+	chromedriver!GetHandleVerifier [0x5fee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x75fb5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7765d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7765d7c1+231]
+
